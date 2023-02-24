@@ -16,6 +16,10 @@
 		3C053CA429A308790065CE4B /* Lokalise_iOS_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C053CA329A308790065CE4B /* Lokalise_iOS_DemoTests.swift */; };
 		3C053CAE29A308790065CE4B /* Lokalise_iOS_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C053CAD29A308790065CE4B /* Lokalise_iOS_DemoUITests.swift */; };
 		3C053CB029A308790065CE4B /* Lokalise_iOS_DemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C053CAF29A308790065CE4B /* Lokalise_iOS_DemoUITestsLaunchTests.swift */; };
+		3C053CC329A30A1F0065CE4B /* Lokalise.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C053CC229A30A1F0065CE4B /* Lokalise.xcframework */; };
+		3C053CC629A30E500065CE4B /* FlexLayout in Frameworks */ = {isa = PBXBuildFile; productRef = 3C053CC529A30E500065CE4B /* FlexLayout */; };
+		3C053CC929A30EC20065CE4B /* PinLayout in Frameworks */ = {isa = PBXBuildFile; productRef = 3C053CC829A30EC20065CE4B /* PinLayout */; };
+		3C053CD029A314B20065CE4B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C053CD229A314B20065CE4B /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,15 +44,26 @@
 		3C053C8C29A308780065CE4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3C053C8E29A308780065CE4B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3C053C9029A308780065CE4B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3C053C9329A308780065CE4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3C053C9529A308790065CE4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3C053C9829A308790065CE4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C053C9A29A308790065CE4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C053C9F29A308790065CE4B /* Lokalise-iOS-DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lokalise-iOS-DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C053CA329A308790065CE4B /* Lokalise_iOS_DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lokalise_iOS_DemoTests.swift; sourceTree = "<group>"; };
 		3C053CA929A308790065CE4B /* Lokalise-iOS-DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lokalise-iOS-DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C053CAD29A308790065CE4B /* Lokalise_iOS_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lokalise_iOS_DemoUITests.swift; sourceTree = "<group>"; };
 		3C053CAF29A308790065CE4B /* Lokalise_iOS_DemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lokalise_iOS_DemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3C053CC229A30A1F0065CE4B /* Lokalise.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Lokalise.xcframework; sourceTree = "<group>"; };
+		3C053CD129A314B20065CE4B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3C053CD429A3526F0065CE4B /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		3C053CD729A352EB0065CE4B /* en_SG */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en_SG; path = en_SG.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3C053CD829A368BC0065CE4B /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "zh-Hant"; path = "zh-Hant.lproj/LaunchScreen.storyboard"; sourceTree = "<group>"; };
+		3C053CD929A368BC0065CE4B /* en_SG */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en_SG; path = en_SG.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C053CDA29A368BC0065CE4B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C053CDD29A368CD0065CE4B /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "zh-Hant"; path = "zh-Hant.lproj/Main.storyboard"; sourceTree = "<group>"; };
+		3C053CDE29A368CD0065CE4B /* en_SG */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en_SG; path = en_SG.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C053CDF29A368DF0065CE4B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C053CE029A369340065CE4B /* en-US */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "en-US"; path = "en-US.lproj/Main.storyboard"; sourceTree = "<group>"; };
+		3C053CE129A369340065CE4B /* en-US */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "en-US"; path = "en-US.lproj/LaunchScreen.storyboard"; sourceTree = "<group>"; };
+		3C053CE229A369340065CE4B /* en-US */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-US"; path = "en-US.lproj/Localizable.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +71,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C053CC929A30EC20065CE4B /* PinLayout in Frameworks */,
+				3C053CC329A30A1F0065CE4B /* Lokalise.xcframework in Frameworks */,
+				3C053CC629A30E500065CE4B /* FlexLayout in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +101,7 @@
 				3C053CA229A308790065CE4B /* Lokalise-iOS-DemoTests */,
 				3C053CAC29A308790065CE4B /* Lokalise-iOS-DemoUITests */,
 				3C053C8A29A308780065CE4B /* Products */,
+				3C053CBC29A309F40065CE4B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +125,7 @@
 				3C053C9529A308790065CE4B /* Assets.xcassets */,
 				3C053C9729A308790065CE4B /* LaunchScreen.storyboard */,
 				3C053C9A29A308790065CE4B /* Info.plist */,
+				3C053CD229A314B20065CE4B /* Localizable.strings */,
 			);
 			path = "Lokalise-iOS-Demo";
 			sourceTree = "<group>";
@@ -127,6 +147,14 @@
 			path = "Lokalise-iOS-DemoUITests";
 			sourceTree = "<group>";
 		};
+		3C053CBC29A309F40065CE4B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C053CC229A30A1F0065CE4B /* Lokalise.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +171,10 @@
 			dependencies = (
 			);
 			name = "Lokalise-iOS-Demo";
+			packageProductDependencies = (
+				3C053CC529A30E500065CE4B /* FlexLayout */,
+				3C053CC829A30EC20065CE4B /* PinLayout */,
+			);
 			productName = "Lokalise-iOS-Demo";
 			productReference = 3C053C8929A308780065CE4B /* Lokalise-iOS-Demo.app */;
 			productType = "com.apple.product-type.application";
@@ -212,9 +244,15 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
+				"zh-Hant",
+				en_SG,
+				"en-US",
 			);
 			mainGroup = 3C053C8029A308780065CE4B;
+			packageReferences = (
+				3C053CC429A30E500065CE4B /* XCRemoteSwiftPackageReference "FlexLayout" */,
+				3C053CC729A30EC20065CE4B /* XCRemoteSwiftPackageReference "PinLayout" */,
+			);
 			productRefGroup = 3C053C8A29A308780065CE4B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -232,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C053C9929A308790065CE4B /* LaunchScreen.storyboard in Resources */,
+				3C053CD029A314B20065CE4B /* Localizable.strings in Resources */,
 				3C053C9629A308790065CE4B /* Assets.xcassets in Resources */,
 				3C053C9429A308780065CE4B /* Main.storyboard in Resources */,
 			);
@@ -300,7 +339,10 @@
 		3C053C9229A308780065CE4B /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3C053C9329A308780065CE4B /* Base */,
+				3C053CDD29A368CD0065CE4B /* zh-Hant */,
+				3C053CDE29A368CD0065CE4B /* en_SG */,
+				3C053CDF29A368DF0065CE4B /* en */,
+				3C053CE029A369340065CE4B /* en-US */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -308,9 +350,23 @@
 		3C053C9729A308790065CE4B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3C053C9829A308790065CE4B /* Base */,
+				3C053CD829A368BC0065CE4B /* zh-Hant */,
+				3C053CD929A368BC0065CE4B /* en_SG */,
+				3C053CDA29A368BC0065CE4B /* en */,
+				3C053CE129A369340065CE4B /* en-US */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3C053CD229A314B20065CE4B /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C053CD129A314B20065CE4B /* en */,
+				3C053CD429A3526F0065CE4B /* zh-Hant */,
+				3C053CD729A352EB0065CE4B /* en_SG */,
+				3C053CE229A369340065CE4B /* en-US */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -320,6 +376,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -380,6 +437,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -437,6 +495,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = "FLEXLAYOUT_SWIFT_PACKAGE=1";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Lokalise-iOS-Demo/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -596,6 +655,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3C053CC429A30E500065CE4B /* XCRemoteSwiftPackageReference "FlexLayout" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/layoutBox/FlexLayout.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		3C053CC729A30EC20065CE4B /* XCRemoteSwiftPackageReference "PinLayout" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/layoutBox/PinLayout";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3C053CC529A30E500065CE4B /* FlexLayout */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3C053CC429A30E500065CE4B /* XCRemoteSwiftPackageReference "FlexLayout" */;
+			productName = FlexLayout;
+		};
+		3C053CC829A30EC20065CE4B /* PinLayout */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3C053CC729A30EC20065CE4B /* XCRemoteSwiftPackageReference "PinLayout" */;
+			productName = PinLayout;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3C053C8129A308780065CE4B /* Project object */;
 }

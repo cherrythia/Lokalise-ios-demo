@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Lokalise
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -14,7 +15,54 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        Lokalise.shared.setProjectID("6348125463eb5f91dc9054.82140054", token: "bf56a89e8912ee949c503d41d6f47905bf22")
+        
+        Lokalise.shared.swizzleMainBundle()
+        
+        Lokalise.shared.localizationType = .release
+        
+        Lokalise.shared.checkForUpdates { (updated, errorOrNil) in
+            print("Updated: \(updated)\nError: \(errorOrNil)")
+            
+            print("""
+                        Locale
+                        
+                        Locale.preferredLanguages
+                        \(Locale.preferredLanguages)
+                        Locale.current.identifier
+                        \(Locale.current.identifier)
+                        
+                        
+                        Bundle
+                        
+                        Bundle.main.localizations
+                        \(Bundle.main.localizations)
+                        Bundle.main.preferredLocalizations
+                        \(Bundle.main.preferredLocalizations)
+                        Bundle.main.developmentLocalization
+                        \(Bundle.main.developmentLocalization ?? "undefined")
+                        
+                        
+                        Lokalise
+                        
+                        Lokalise.shared.availableLocales .identifier
+                        \(Lokalise.shared.availableLocales().map({$0.identifier}))
+                        Lokalise.shared.localizationLocale.identifier
+                        \(Lokalise.shared.localizationLocale.identifier)
+                        Lokalise.shared.lokaliseBundleVersion
+                        \(Lokalise.shared.lokaliseBundleVersion)
+                        LokaliseFrameworkVersion
+                        \(LokaliseFrameworkVersion)
+                        """)
+            
+            
+        }
+        
         return true
+    }
+    
+    func applicationDidBecomeActive(_ application: UIApplication) {
+        
     }
 
     // MARK: UISceneSession Lifecycle
