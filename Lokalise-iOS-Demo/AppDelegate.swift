@@ -15,11 +15,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        Lokalise.shared.setProjectID("6348125463eb5f91dc9054.82140054", token: "bf56a89e8912ee949c503d41d6f47905bf22")
+        Lokalise.shared.setProjectID("64681447624e3730df9c00.98683013", token: "f9e18b0260ebe9916613b1cb063e04a7c1ed")
         
         Lokalise.shared.swizzleMainBundle()
         
-        Lokalise.shared.localizationType = .release
+        Lokalise.shared.localizationType = .prerelease
         
         Lokalise.shared.checkForUpdates { (updated, errorOrNil) in
             print("Updated: \(updated)\nError: \(errorOrNil)")

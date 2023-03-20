@@ -63,7 +63,6 @@
 		3C053CDF29A368DF0065CE4B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3C053CE029A369340065CE4B /* en-US */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "en-US"; path = "en-US.lproj/Main.storyboard"; sourceTree = "<group>"; };
 		3C053CE129A369340065CE4B /* en-US */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "en-US"; path = "en-US.lproj/LaunchScreen.storyboard"; sourceTree = "<group>"; };
-		3C053CE229A369340065CE4B /* en-US */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-US"; path = "en-US.lproj/Localizable.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -364,7 +363,6 @@
 				3C053CD129A314B20065CE4B /* en */,
 				3C053CD429A3526F0065CE4B /* zh-Hant */,
 				3C053CD729A352EB0065CE4B /* en_SG */,
-				3C053CE229A369340065CE4B /* en-US */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";

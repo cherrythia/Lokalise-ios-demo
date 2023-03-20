@@ -23,7 +23,7 @@ class ViewController: UIViewController {
         
         subscribeLokalise()
         
-        label.text = NSLocalizedString("estatement_cashline_label", comment: "")
+        label.text = NSLocalizedString("testing_r3_label_copy", comment: "")
         //        label.text = Lokalise.shared.localizedString(forKey: "estatement_cashline_label", value: "default", table: nil)
 
         label.flex.markDirty()
