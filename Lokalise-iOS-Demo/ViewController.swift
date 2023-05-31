@@ -21,9 +21,9 @@ class ViewController: UIViewController {
         
         self.view.addSubview(rootView)
         
-        subscribeLokalise()
+        //subscribeLokalise()
         
-        label.text = NSLocalizedString("testing_r3_label_copy", comment: "")
+        label.text = NSLocalizedString("dummy_key_to_generate_consolidated", comment: "")
         //        label.text = Lokalise.shared.localizedString(forKey: "estatement_cashline_label", value: "default", table: nil)
 
         label.flex.markDirty()

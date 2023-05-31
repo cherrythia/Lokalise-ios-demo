@@ -53,16 +53,19 @@
 		3C053CAF29A308790065CE4B /* Lokalise_iOS_DemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lokalise_iOS_DemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		3C053CC229A30A1F0065CE4B /* Lokalise.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Lokalise.xcframework; sourceTree = "<group>"; };
 		3C053CD129A314B20065CE4B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		3C053CD429A3526F0065CE4B /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		3C053CD729A352EB0065CE4B /* en_SG */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en_SG; path = en_SG.lproj/Localizable.strings; sourceTree = "<group>"; };
-		3C053CD829A368BC0065CE4B /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "zh-Hant"; path = "zh-Hant.lproj/LaunchScreen.storyboard"; sourceTree = "<group>"; };
 		3C053CD929A368BC0065CE4B /* en_SG */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en_SG; path = en_SG.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C053CDA29A368BC0065CE4B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		3C053CDD29A368CD0065CE4B /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "zh-Hant"; path = "zh-Hant.lproj/Main.storyboard"; sourceTree = "<group>"; };
 		3C053CDE29A368CD0065CE4B /* en_SG */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en_SG; path = en_SG.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3C053CDF29A368DF0065CE4B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3C053CE029A369340065CE4B /* en-US */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "en-US"; path = "en-US.lproj/Main.storyboard"; sourceTree = "<group>"; };
 		3C053CE129A369340065CE4B /* en-US */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "en-US"; path = "en-US.lproj/LaunchScreen.storyboard"; sourceTree = "<group>"; };
+		3C55FFAA2A27224B00371172 /* zh-Hans-SG */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "zh-Hans-SG"; path = "zh-Hans-SG.lproj/Main.storyboard"; sourceTree = "<group>"; };
+		3C55FFAB2A27224B00371172 /* zh-Hans-SG */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "zh-Hans-SG"; path = "zh-Hans-SG.lproj/LaunchScreen.storyboard"; sourceTree = "<group>"; };
+		3C55FFAC2A27224B00371172 /* zh-Hans-SG */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans-SG"; path = "zh-Hans-SG.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		3C55FFAD2A27227100371172 /* zh-Hant-HK */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "zh-Hant-HK"; path = "zh-Hant-HK.lproj/Main.storyboard"; sourceTree = "<group>"; };
+		3C55FFAE2A27227100371172 /* zh-Hant-HK */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "zh-Hant-HK"; path = "zh-Hant-HK.lproj/LaunchScreen.storyboard"; sourceTree = "<group>"; };
+		3C55FFAF2A27227200371172 /* zh-Hant-HK */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant-HK"; path = "zh-Hant-HK.lproj/Localizable.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -243,9 +246,10 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				"zh-Hant",
 				en_SG,
 				"en-US",
+				"zh-Hans-SG",
+				"zh-Hant-HK",
 			);
 			mainGroup = 3C053C8029A308780065CE4B;
 			packageReferences = (
@@ -338,10 +342,11 @@
 		3C053C9229A308780065CE4B /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3C053CDD29A368CD0065CE4B /* zh-Hant */,
 				3C053CDE29A368CD0065CE4B /* en_SG */,
 				3C053CDF29A368DF0065CE4B /* en */,
 				3C053CE029A369340065CE4B /* en-US */,
+				3C55FFAA2A27224B00371172 /* zh-Hans-SG */,
+				3C55FFAD2A27227100371172 /* zh-Hant-HK */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -349,10 +354,11 @@
 		3C053C9729A308790065CE4B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3C053CD829A368BC0065CE4B /* zh-Hant */,
 				3C053CD929A368BC0065CE4B /* en_SG */,
 				3C053CDA29A368BC0065CE4B /* en */,
 				3C053CE129A369340065CE4B /* en-US */,
+				3C55FFAB2A27224B00371172 /* zh-Hans-SG */,
+				3C55FFAE2A27227100371172 /* zh-Hant-HK */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -361,8 +367,9 @@
 			isa = PBXVariantGroup;
 			children = (
 				3C053CD129A314B20065CE4B /* en */,
-				3C053CD429A3526F0065CE4B /* zh-Hant */,
 				3C053CD729A352EB0065CE4B /* en_SG */,
+				3C55FFAC2A27224B00371172 /* zh-Hans-SG */,
+				3C55FFAF2A27227200371172 /* zh-Hant-HK */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
