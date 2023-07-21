@@ -15,7 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        Lokalise.shared.setProjectID("64681447624e3730df9c00.98683013", token: "f9e18b0260ebe9916613b1cb063e04a7c1ed")
+        Lokalise.shared.setProjectID("455009485e1e85825682d2.64484346", token: "34df3a3b7f803c5d010873b68ecab009d8c4")
         
         Lokalise.shared.swizzleMainBundle()
         

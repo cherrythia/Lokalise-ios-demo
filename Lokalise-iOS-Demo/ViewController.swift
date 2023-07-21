@@ -14,22 +14,24 @@ class ViewController: UIViewController {
     
     private let rootView = UIView()
     private let label = UILabel()
+    private let button = UIButton()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        
+        self.setupButton()
         self.view.addSubview(rootView)
         
         //subscribeLokalise()
         
-        label.text = NSLocalizedString("dummy_key_to_generate_consolidated", comment: "")
+        label.text = NSLocalizedString("ota_key", comment: "")
         //        label.text = Lokalise.shared.localizedString(forKey: "estatement_cashline_label", value: "default", table: nil)
 
         label.flex.markDirty()
         
         rootView.flex.direction(.column).justifyContent(.center).define { flex in
             flex.addItem(label).height(100).width(300).marginTop(300).marginLeft(50)
+            flex.addItem(button).height(50).width(200).marginLeft(50)
         }
         
         rootView.flex.layout()
@@ -52,6 +54,18 @@ class ViewController: UIViewController {
         // Update your interface in Swift
 //        label.text = Lokalise.shared.localizedString(forKey: "estatement_cashline_label", value: "default value", table: "tableName")
         print("Downloaded")
+    }
+    
+    private func setupButton() {
+        button.setTitle("Next", for: .normal)
+        button.backgroundColor = .blue
+        button.addTarget(self, action: #selector(ViewController.tapped(_sender:)), for: .touchDown)
+    }
+    
+    @objc func tapped(_sender: AnyObject) {
+        let newVC = NewViewController()
+        self.navigationController?.pushViewController(newVC, animated: false)
+        print("tapped")
     }
 
 
