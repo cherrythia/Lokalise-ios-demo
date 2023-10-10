@@ -23,7 +23,7 @@ class NewViewController: UIViewController {
         label.text = NSLocalizedString("ota_key", comment: "")
         label.flex.markDirty()
         
-        rootView.flex.direction(.column).justifyContent(.center).define { flex in
+        rootView.flex.direction(.column).define { flex in
             flex.addItem(label).height(100).width(300).marginTop(300).marginLeft(50)
         }
         

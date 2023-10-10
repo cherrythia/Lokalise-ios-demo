@@ -9,12 +9,16 @@ import UIKit
 import FlexLayout
 import PinLayout
 import Lokalise
+import RxSwift
+import RxCocoa
 
 class ViewController: UIViewController {
     
     private let rootView = UIView()
     private let label = UILabel()
     private let button = UIButton()
+    private let newVC = NewViewController()
+    private let disposeBag = DisposeBag()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,10 +26,9 @@ class ViewController: UIViewController {
         self.setupButton()
         self.view.addSubview(rootView)
         
-        //subscribeLokalise()
+        subscribeLokalise()
         
         label.text = NSLocalizedString("ota_key", comment: "")
-        //        label.text = Lokalise.shared.localizedString(forKey: "estatement_cashline_label", value: "default", table: nil)
 
         label.flex.markDirty()
         
@@ -52,22 +55,16 @@ class ViewController: UIViewController {
     
     @objc func updateUserInterface() {
         // Update your interface in Swift
-//        label.text = Lokalise.shared.localizedString(forKey: "estatement_cashline_label", value: "default value", table: "tableName")
-        print("Downloaded")
+        label.text = NSLocalizedString("ota_key", comment: "")
     }
     
     private func setupButton() {
         button.setTitle("Next", for: .normal)
         button.backgroundColor = .blue
-        button.addTarget(self, action: #selector(ViewController.tapped(_sender:)), for: .touchDown)
+        button.rx.tap.bind { [self] _ in
+            print("tappppped")
+            self.navigationController?.pushViewController(newVC, animated: false)
+        }
     }
-    
-    @objc func tapped(_sender: AnyObject) {
-        let newVC = NewViewController()
-        self.navigationController?.pushViewController(newVC, animated: false)
-        print("tapped")
-    }
-
-
 }
 
