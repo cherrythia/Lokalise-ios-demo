@@ -15,6 +15,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        // setupOTALokalise()
+        return true
+    }
+    
+    private func setupOTALokalise() {
         Lokalise.shared.setProjectID("455009485e1e85825682d2.64484346", token: "34df3a3b7f803c5d010873b68ecab009d8c4")
         
         Lokalise.shared.swizzleMainBundle()
@@ -57,8 +62,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             
             
         }
-        
-        return true
     }
     
     func applicationDidBecomeActive(_ application: UIApplication) {

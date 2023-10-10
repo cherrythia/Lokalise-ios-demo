@@ -11,6 +11,7 @@ import PinLayout
 import Lokalise
 import RxSwift
 import RxCocoa
+import Lokalise_iOS_MFE
 
 class ViewController: UIViewController {
     
@@ -18,6 +19,7 @@ class ViewController: UIViewController {
     private let label = UILabel()
     private let button = UIButton()
     private let newVC = NewViewController()
+    private let mfeViewController = MFEViewController()
     private let disposeBag = DisposeBag()
 
     override func viewDidLoad() {
@@ -63,7 +65,7 @@ class ViewController: UIViewController {
         button.backgroundColor = .blue
         button.rx.tap.bind { [self] _ in
             print("tappppped")
-            self.navigationController?.pushViewController(newVC, animated: false)
+            self.navigationController?.pushViewController(mfeViewController, animated: false)
         }
     }
 }

@@ -1,0 +1,3 @@
+github "ReactiveX/RxSwift" "6.6.0"
+github "layoutBox/FlexLayout" "1.3.24"
+github "layoutBox/PinLayout" "1.10.0"
