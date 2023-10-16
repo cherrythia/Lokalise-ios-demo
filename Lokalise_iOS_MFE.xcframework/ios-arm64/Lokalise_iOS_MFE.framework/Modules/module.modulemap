@@ -1,0 +1,4 @@
+framework module Lokalise_iOS_MFE {
+  header "Lokalise_iOS_MFE-Swift.h"
+  requires objc
+}
