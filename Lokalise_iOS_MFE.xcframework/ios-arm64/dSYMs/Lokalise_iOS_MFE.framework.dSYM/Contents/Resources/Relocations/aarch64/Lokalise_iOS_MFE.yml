@@ -2,20 +2,36 @@
 triple:          'arm64-apple-darwin'
 binary-path:     '/Users/chiaweizhengterry/Library/Developer/Xcode/DerivedData/Lokalise-iOS-MFE-fhbwwmydltmhgediuyymhpkerake/Build/Intermediates.noindex/ArchiveIntermediates/Lokalise-iOS-MFE/BuildProductsPath/Release-iphoneos/Lokalise_iOS_MFE.framework/Lokalise_iOS_MFE'
 relocations:
-  - { offsetInCU: 0x34, offset: 0x549FF, size: 0x8, addend: 0x0, symName: _Lokalise_iOS_MFEVersionString, symObjAddr: 0x0, symBinAddr: 0x4A70, symSize: 0x0 }
-  - { offsetInCU: 0x69, offset: 0x54A34, size: 0x8, addend: 0x0, symName: _Lokalise_iOS_MFEVersionNumber, symObjAddr: 0x40, symBinAddr: 0x4AB0, symSize: 0x0 }
-  - { offsetInCU: 0x2B, offset: 0x54A75, size: 0x8, addend: 0x0, symName: '_$s16Lokalise_iOS_MFE17MFEViewControllerC11viewDidLoadyyF', symObjAddr: 0x58, symBinAddr: 0x4058, symSize: 0x330 }
-  - { offsetInCU: 0x78, offset: 0x54AC2, size: 0x8, addend: 0x0, symName: '_$s16Lokalise_iOS_MFE17MFEViewControllerC11viewDidLoadyyF', symObjAddr: 0x58, symBinAddr: 0x4058, symSize: 0x330 }
-  - { offsetInCU: 0x15C, offset: 0x54BA6, size: 0x8, addend: 0x0, symName: '_$s16Lokalise_iOS_MFE17MFEViewControllerC11viewDidLoadyyFTo', symObjAddr: 0x3A8, symBinAddr: 0x43A8, symSize: 0x34 }
-  - { offsetInCU: 0x178, offset: 0x54BC2, size: 0x8, addend: 0x0, symName: '_$s16Lokalise_iOS_MFE17MFEViewControllerC22viewWillLayoutSubviewsyyF', symObjAddr: 0x3DC, symBinAddr: 0x43DC, symSize: 0xA8 }
-  - { offsetInCU: 0x1B5, offset: 0x54BFF, size: 0x8, addend: 0x0, symName: '_$s16Lokalise_iOS_MFE17MFEViewControllerC22viewWillLayoutSubviewsyyFTo', symObjAddr: 0x484, symBinAddr: 0x4484, symSize: 0xBC }
-  - { offsetInCU: 0x1EA, offset: 0x54C34, size: 0x8, addend: 0x0, symName: '_$s16Lokalise_iOS_MFE17MFEViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfC', symObjAddr: 0x540, symBinAddr: 0x4540, symSize: 0x74 }
-  - { offsetInCU: 0x208, offset: 0x54C52, size: 0x8, addend: 0x0, symName: '_$s16Lokalise_iOS_MFE17MFEViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc', symObjAddr: 0x5B4, symBinAddr: 0x45B4, symSize: 0x10C }
-  - { offsetInCU: 0x297, offset: 0x54CE1, size: 0x8, addend: 0x0, symName: '_$s16Lokalise_iOS_MFE17MFEViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfcTo', symObjAddr: 0x6C0, symBinAddr: 0x46C0, symSize: 0x5C }
-  - { offsetInCU: 0x2B3, offset: 0x54CFD, size: 0x8, addend: 0x0, symName: '_$s16Lokalise_iOS_MFE17MFEViewControllerC5coderACSgSo7NSCoderC_tcfC', symObjAddr: 0x71C, symBinAddr: 0x471C, symSize: 0x40 }
-  - { offsetInCU: 0x2D1, offset: 0x54D1B, size: 0x8, addend: 0x0, symName: '_$s16Lokalise_iOS_MFE17MFEViewControllerC5coderACSgSo7NSCoderC_tcfc', symObjAddr: 0x75C, symBinAddr: 0x475C, symSize: 0xC0 }
-  - { offsetInCU: 0x352, offset: 0x54D9C, size: 0x8, addend: 0x0, symName: '_$s16Lokalise_iOS_MFE17MFEViewControllerC5coderACSgSo7NSCoderC_tcfcTo', symObjAddr: 0x81C, symBinAddr: 0x481C, symSize: 0x2C }
-  - { offsetInCU: 0x36E, offset: 0x54DB8, size: 0x8, addend: 0x0, symName: '_$s16Lokalise_iOS_MFE17MFEViewControllerCfD', symObjAddr: 0x848, symBinAddr: 0x4848, symSize: 0x30 }
-  - { offsetInCU: 0x39C, offset: 0x54DE6, size: 0x8, addend: 0x0, symName: '_$s16Lokalise_iOS_MFE17MFEViewControllerCMa', symObjAddr: 0x388, symBinAddr: 0x4388, symSize: 0x20 }
-  - { offsetInCU: 0x3B0, offset: 0x54DFA, size: 0x8, addend: 0x0, symName: '_$s16Lokalise_iOS_MFE17MFEViewControllerCfETo', symObjAddr: 0x878, symBinAddr: 0x4878, symSize: 0x38 }
+  - { offsetInCU: 0x34, offset: 0x55298, size: 0x8, addend: 0x0, symName: _Lokalise_iOS_MFEVersionString, symObjAddr: 0x0, symBinAddr: 0x5810, symSize: 0x0 }
+  - { offsetInCU: 0x69, offset: 0x552CD, size: 0x8, addend: 0x0, symName: _Lokalise_iOS_MFEVersionNumber, symObjAddr: 0x40, symBinAddr: 0x5850, symSize: 0x0 }
+  - { offsetInCU: 0x2B, offset: 0x5530E, size: 0x8, addend: 0x0, symName: '_$s16Lokalise_iOS_MFE17MFEViewControllerC11viewDidLoadyyF', symObjAddr: 0x58, symBinAddr: 0x4058, symSize: 0x280 }
+  - { offsetInCU: 0x4F, offset: 0x55332, size: 0x8, addend: 0x0, symName: '_$s16Lokalise_iOS_MFE17MFEViewControllerC11viewDidLoadyyF', symObjAddr: 0x58, symBinAddr: 0x4058, symSize: 0x280 }
+  - { offsetInCU: 0xF9, offset: 0x553DC, size: 0x8, addend: 0x0, symName: '_$s16Lokalise_iOS_MFE17MFEViewControllerC11viewDidLoadyyFTo', symObjAddr: 0x2F8, symBinAddr: 0x42F8, symSize: 0x34 }
+  - { offsetInCU: 0x115, offset: 0x553F8, size: 0x8, addend: 0x0, symName: '_$s16Lokalise_iOS_MFE17MFEViewControllerC22viewWillLayoutSubviewsyyF', symObjAddr: 0x32C, symBinAddr: 0x432C, symSize: 0xA8 }
+  - { offsetInCU: 0x152, offset: 0x55435, size: 0x8, addend: 0x0, symName: '_$s16Lokalise_iOS_MFE17MFEViewControllerC22viewWillLayoutSubviewsyyFTo', symObjAddr: 0x3D4, symBinAddr: 0x43D4, symSize: 0xBC }
+  - { offsetInCU: 0x187, offset: 0x5546A, size: 0x8, addend: 0x0, symName: '_$s16Lokalise_iOS_MFE17MFEViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfC', symObjAddr: 0x490, symBinAddr: 0x4490, symSize: 0x74 }
+  - { offsetInCU: 0x1A5, offset: 0x55488, size: 0x8, addend: 0x0, symName: '_$s16Lokalise_iOS_MFE17MFEViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc', symObjAddr: 0x504, symBinAddr: 0x4504, symSize: 0x10C }
+  - { offsetInCU: 0x234, offset: 0x55517, size: 0x8, addend: 0x0, symName: '_$s16Lokalise_iOS_MFE17MFEViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfcTo', symObjAddr: 0x610, symBinAddr: 0x4610, symSize: 0x5C }
+  - { offsetInCU: 0x250, offset: 0x55533, size: 0x8, addend: 0x0, symName: '_$s16Lokalise_iOS_MFE17MFEViewControllerC5coderACSgSo7NSCoderC_tcfC', symObjAddr: 0x66C, symBinAddr: 0x466C, symSize: 0x40 }
+  - { offsetInCU: 0x26E, offset: 0x55551, size: 0x8, addend: 0x0, symName: '_$s16Lokalise_iOS_MFE17MFEViewControllerC5coderACSgSo7NSCoderC_tcfc', symObjAddr: 0x6AC, symBinAddr: 0x46AC, symSize: 0xC0 }
+  - { offsetInCU: 0x2EF, offset: 0x555D2, size: 0x8, addend: 0x0, symName: '_$s16Lokalise_iOS_MFE17MFEViewControllerC5coderACSgSo7NSCoderC_tcfcTo', symObjAddr: 0x76C, symBinAddr: 0x476C, symSize: 0x2C }
+  - { offsetInCU: 0x30B, offset: 0x555EE, size: 0x8, addend: 0x0, symName: '_$s16Lokalise_iOS_MFE17MFEViewControllerCfD', symObjAddr: 0x798, symBinAddr: 0x4798, symSize: 0x30 }
+  - { offsetInCU: 0x339, offset: 0x5561C, size: 0x8, addend: 0x0, symName: '_$s16Lokalise_iOS_MFE17MFEViewControllerCMa', symObjAddr: 0x2D8, symBinAddr: 0x42D8, symSize: 0x20 }
+  - { offsetInCU: 0x34D, offset: 0x55630, size: 0x8, addend: 0x0, symName: '_$s16Lokalise_iOS_MFE17MFEViewControllerCfETo', symObjAddr: 0x7C8, symBinAddr: 0x47C8, symSize: 0x38 }
+  - { offsetInCU: 0x27, offset: 0x5584F, size: 0x8, addend: 0x0, symName: '_$s16Lokalise_iOS_MFE3OTACACycfC', symObjAddr: 0x0, symBinAddr: 0x4800, symSize: 0x10 }
+  - { offsetInCU: 0x4B, offset: 0x55873, size: 0x8, addend: 0x0, symName: '_$s16Lokalise_iOS_MFE3OTACACycfC', symObjAddr: 0x0, symBinAddr: 0x4800, symSize: 0x10 }
+  - { offsetInCU: 0x69, offset: 0x55891, size: 0x8, addend: 0x0, symName: '_$s16Lokalise_iOS_MFE3OTACACycfc', symObjAddr: 0x10, symBinAddr: 0x4810, symSize: 0x8 }
+  - { offsetInCU: 0x98, offset: 0x558C0, size: 0x8, addend: 0x0, symName: '_$s16Lokalise_iOS_MFE3OTAC05StartD0yyF', symObjAddr: 0x18, symBinAddr: 0x4818, symSize: 0x190 }
+  - { offsetInCU: 0xE2, offset: 0x5590A, size: 0x8, addend: 0x0, symName: '_$s16Lokalise_iOS_MFE3OTAC05StartD0yyFySb_s5Error_pSgtcfU_', symObjAddr: 0x1A8, symBinAddr: 0x49A8, symSize: 0x7AC }
+  - { offsetInCU: 0x77E, offset: 0x55FA6, size: 0x8, addend: 0x0, symName: '_$s16Lokalise_iOS_MFE3OTACfd', symObjAddr: 0x9CC, symBinAddr: 0x51CC, symSize: 0x8 }
+  - { offsetInCU: 0x7AD, offset: 0x55FD5, size: 0x8, addend: 0x0, symName: '_$s16Lokalise_iOS_MFE3OTACfD', symObjAddr: 0x9D4, symBinAddr: 0x51D4, symSize: 0x10 }
+  - { offsetInCU: 0x932, offset: 0x5615A, size: 0x8, addend: 0x0, symName: '_$sSbs5Error_pSgIegyg_SbSo7NSErrorCSgIeyByy_TR', symObjAddr: 0x954, symBinAddr: 0x5154, symSize: 0x60 }
+  - { offsetInCU: 0x94A, offset: 0x56172, size: 0x8, addend: 0x0, symName: _block_copy_helper, symObjAddr: 0x9B4, symBinAddr: 0x51B4, symSize: 0x10 }
+  - { offsetInCU: 0x95E, offset: 0x56186, size: 0x8, addend: 0x0, symName: _block_destroy_helper, symObjAddr: 0x9C4, symBinAddr: 0x51C4, symSize: 0x8 }
+  - { offsetInCU: 0x972, offset: 0x5619A, size: 0x8, addend: 0x0, symName: '_$s16Lokalise_iOS_MFE3OTACMa', symObjAddr: 0x9E4, symBinAddr: 0x51E4, symSize: 0x20 }
+  - { offsetInCU: 0x986, offset: 0x561AE, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledName, symObjAddr: 0xA04, symBinAddr: 0x5204, symSize: 0x40 }
+  - { offsetInCU: 0x99A, offset: 0x561C2, size: 0x8, addend: 0x0, symName: '_$ss15ContiguousArrayV16_createNewBuffer14bufferIsUnique15minimumCapacity13growForAppendySb_SiSbtFSS_Tg5', symObjAddr: 0xA44, symBinAddr: 0x5244, symSize: 0x1C }
+  - { offsetInCU: 0xA0A, offset: 0x56232, size: 0x8, addend: 0x0, symName: '_$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSS_Tg5', symObjAddr: 0xA60, symBinAddr: 0x5260, symSize: 0x104 }
+  - { offsetInCU: 0x27, offset: 0x5658F, size: 0x8, addend: 0x0, symName: '_$s16Lokalise_iOS_MFE18LocalizableStringsO9localizedSSvg', symObjAddr: 0x0, symBinAddr: 0x5364, symSize: 0x1D0 }
+  - { offsetInCU: 0x4B, offset: 0x565B3, size: 0x8, addend: 0x0, symName: '_$s16Lokalise_iOS_MFE18LocalizableStringsO9localizedSSvg', symObjAddr: 0x0, symBinAddr: 0x5364, symSize: 0x1D0 }
 ...

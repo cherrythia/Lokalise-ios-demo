@@ -18,7 +18,6 @@ class ViewController: UIViewController {
     private let rootView = UIView()
     private let label = UILabel()
     private let button = UIButton()
-    private let newVC = NewViewController()
     private let mfeViewController = MFEViewController()
     private let disposeBag = DisposeBag()
 

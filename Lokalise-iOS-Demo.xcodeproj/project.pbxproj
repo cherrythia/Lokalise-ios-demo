@@ -25,7 +25,6 @@
 		3C23BB072AD5761C00E16A65 /* PinLayout.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C8CBA492AD56F20002B4E2E /* PinLayout.xcframework */; };
 		3C23BB082AD5761C00E16A65 /* PinLayout.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3C8CBA492AD56F20002B4E2E /* PinLayout.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		3C23BB0A2AD5765B00E16A65 /* FlexLayout in Frameworks */ = {isa = PBXBuildFile; productRef = 3C23BB092AD5765B00E16A65 /* FlexLayout */; };
-		3C4FCA8F2A6A709D00CEE36D /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4FCA8E2A6A709D00CEE36D /* NewViewController.swift */; };
 		3C8CBA562AD56FD0002B4E2E /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 3C8CBA552AD56FD0002B4E2E /* RxCocoa */; };
 		3C8CBA582AD56FD0002B4E2E /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3C8CBA572AD56FD0002B4E2E /* RxSwift */; };
 		3C8CBA5A2AD56FF9002B4E2E /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 3C8CBA592AD56FF9002B4E2E /* RxRelay */; };
@@ -83,7 +82,6 @@
 		3C053CDA29A368BC0065CE4B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C053CDF29A368DF0065CE4B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3C053CE129A369340065CE4B /* en-US */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "en-US"; path = "en-US.lproj/LaunchScreen.storyboard"; sourceTree = "<group>"; };
-		3C4FCA8E2A6A709D00CEE36D /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
 		3C55FFAB2A27224B00371172 /* zh-Hans-SG */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "zh-Hans-SG"; path = "zh-Hans-SG.lproj/LaunchScreen.storyboard"; sourceTree = "<group>"; };
 		3C55FFAC2A27224B00371172 /* zh-Hans-SG */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans-SG"; path = "zh-Hans-SG.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		3C55FFAE2A27227100371172 /* zh-Hant-HK */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "zh-Hant-HK"; path = "zh-Hant-HK.lproj/LaunchScreen.storyboard"; sourceTree = "<group>"; };
@@ -155,7 +153,6 @@
 				3C053C8C29A308780065CE4B /* AppDelegate.swift */,
 				3C053C8E29A308780065CE4B /* SceneDelegate.swift */,
 				3C053C9029A308780065CE4B /* ViewController.swift */,
-				3C4FCA8E2A6A709D00CEE36D /* NewViewController.swift */,
 				3C053C9229A308780065CE4B /* Main.storyboard */,
 				3C053C9529A308790065CE4B /* Assets.xcassets */,
 				3C053C9729A308790065CE4B /* LaunchScreen.storyboard */,
@@ -345,7 +342,6 @@
 				3C053C9129A308780065CE4B /* ViewController.swift in Sources */,
 				3C053C8D29A308780065CE4B /* AppDelegate.swift in Sources */,
 				3C053C8F29A308780065CE4B /* SceneDelegate.swift in Sources */,
-				3C4FCA8F2A6A709D00CEE36D /* NewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
